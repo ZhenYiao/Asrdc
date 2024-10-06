@@ -14,7 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -22,14 +21,14 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
+
       - name: Install dependencies
-        run:
-          cd web & pnpm i
+        run: |
+          cd web
+          pnpm install
 
       - name: Build project
         run: pnpm run build
-
-
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
@@ -38,4 +37,3 @@ jobs:
 
       - name: Rust Build
         run: cargo build --release
-
