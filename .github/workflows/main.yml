@@ -28,7 +28,9 @@ jobs:
           pnpm install
 
       - name: Build project
-        run: pnpm run build
+        run: |
+          cd web 
+          pnpm run build
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
