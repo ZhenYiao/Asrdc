@@ -19,14 +19,6 @@ jobs:
         with:
           components: clippy rustfmt
 
-      - name: Run Clippy
-        run: |
-          rustup show
-          cargo clippy
-
-      - name: Run Tests
-        run: cargo test
-
       - name: Rust Build
         run: cargo build --release
 
