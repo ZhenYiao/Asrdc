@@ -29,8 +29,7 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run:
-          cd web
-          npm ci
+          cd web & npm ci
 
       - name: Build project
         run: npm run build
