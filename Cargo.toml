@@ -1,0 +1,29 @@
+[package]
+name = "asrdc"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+path = "src/main.rs"
+name = "main"
+
+[dependencies]
+tokio = {version = "^1",features = ["full"]}
+async-trait = "^0.1"
+bollard = {version = "^0.17.1",features = []}
+anyhow = {version = "^1",features = ["std"]}
+serde = {version = "^1",features = ["derive"]}
+serde_json = {version = "^1"}
+toml = {version = "0.8.19",features = ["parse"]}
+lru = {version = "^0.12.4",features = ["hashbrown"]}
+uuid = { version = "1.10.0", features = ["v4"] }
+actix-web = {version = "4",features = ["http2"]}
+actix-web-lab = {version = "0.22.0",features = ["derive"]}
+tracing = "0.1.40"
+tracing-subscriber = {version = "0.3.18", features = ["std", "local-time","ansi","fmt","default","serde","registry"] }
+tracing-appender = {version = "0.2.3",features = ["parking_lot"]}
+futures-core = {version = "0.3.31",features = ["default"]}
+futures-util = {version = "0.3.31",features = []}
+actix-ws = {version = "0.3.0",features = []}
+time = {version = "0.3.36",features = ["serde","local-offset","alloc","formatting","parsing"]}
+ansi_term = {version = "0.12.1",features = ["serde"]}

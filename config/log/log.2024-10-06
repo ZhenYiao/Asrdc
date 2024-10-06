@@ -1,0 +1,76 @@
+2024-10-06 17:09:29.019  INFO asrdc::api: Api System Start
+2024-10-06 17:09:29.020  INFO actix_server::builder: starting 8 workers
+2024-10-06 17:09:29.020  INFO actix_server::server: Tokio runtime found; starting in existing Tokio runtime
+2024-10-06 17:09:29.020  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32981", workers: 8, listening on: 127.0.0.1:32981
+2024-10-06 17:09:29.020  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32982", workers: 8, listening on: 127.0.0.1:32982
+2024-10-06 17:09:42.036  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 15 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000551    
+2024-10-06 17:09:42.958  INFO actix_web::middleware::logger: 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:32982/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000168    
+2024-10-06 17:09:49.962  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 15 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000543    
+2024-10-06 17:12:05.766  INFO actix_server::server: SIGINT received; starting forced shutdown
+2024-10-06 17:12:05.767  INFO actix_server::worker: force shutdown worker, closing 1 connections
+2024-10-06 17:12:05.767  INFO actix_server::accept: accept thread stopped
+2024-10-06 17:12:05.767  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.767  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.768  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.768  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.768  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.768  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:12:05.768  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:18:22.652  INFO asrdc::api: Api System Start
+2024-10-06 17:18:22.759  INFO actix_server::builder: starting 8 workers
+2024-10-06 17:18:22.759  INFO actix_server::server: Tokio runtime found; starting in existing Tokio runtime
+2024-10-06 17:18:22.759  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32981", workers: 8, listening on: 127.0.0.1:32981
+2024-10-06 17:18:22.759  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32982", workers: 8, listening on: 127.0.0.1:32982
+2024-10-06 17:18:25.061  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.102789    
+2024-10-06 17:18:26.403  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.004290    
+2024-10-06 17:18:26.410  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.005504    
+2024-10-06 17:18:26.417  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.005515    
+2024-10-06 17:18:32.051  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.005993    
+2024-10-06 17:19:02.077  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.006088    
+2024-10-06 17:19:02.085  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.006814    
+2024-10-06 17:19:02.092  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.005297    
+2024-10-06 17:19:04.558  INFO actix_server::server: SIGINT received; starting forced shutdown
+2024-10-06 17:19:04.558  INFO actix_server::accept: accept thread stopped
+2024-10-06 17:19:04.558  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.558  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.558  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.559  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.559  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.559  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.559  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:19:04.559  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:21:19.289  INFO asrdc::api: Api System Start
+2024-10-06 17:21:19.290  INFO actix_server::builder: starting 8 workers
+2024-10-06 17:21:19.290  INFO actix_server::server: Tokio runtime found; starting in existing Tokio runtime
+2024-10-06 17:21:19.290  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32981", workers: 8, listening on: 127.0.0.1:32981
+2024-10-06 17:21:19.290  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32982", workers: 8, listening on: 127.0.0.1:32982
+2024-10-06 17:21:23.695  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.093607    
+2024-10-06 17:22:14.890  INFO actix_server::server: SIGINT received; starting forced shutdown
+2024-10-06 17:22:14.890  INFO actix_server::accept: accept thread stopped
+2024-10-06 17:22:14.890  INFO actix_server::worker: force shutdown worker, closing 1 connections
+2024-10-06 17:22:14.890  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.890  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.890  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.890  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.891  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.891  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:14.891  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:22:25.059  INFO asrdc::api: Api System Start
+2024-10-06 17:22:25.059  INFO actix_server::builder: starting 8 workers
+2024-10-06 17:22:25.059  INFO actix_server::server: Tokio runtime found; starting in existing Tokio runtime
+2024-10-06 17:22:25.060  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32981", workers: 8, listening on: 127.0.0.1:32981
+2024-10-06 17:22:25.060  INFO actix_server::server: starting service: "actix-web-service-127.0.0.1:32982", workers: 8, listening on: 127.0.0.1:32982
+2024-10-06 17:22:25.140  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 15 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000828    
+2024-10-06 17:22:26.079  INFO actix_web::middleware::logger: 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:32982/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000332    
+2024-10-06 17:22:59.591  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 15 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000497    
+2024-10-06 17:23:07.694  INFO actix_web::middleware::logger: 127.0.0.1 "GET / HTTP/1.1" 200 15 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" 0.000525    
+2024-10-06 17:23:32.115  INFO actix_server::server: SIGINT received; starting forced shutdown
+2024-10-06 17:23:32.115  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.115  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.115  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.115  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.115  INFO actix_server::worker: force shutdown worker, closing 1 connections
+2024-10-06 17:23:32.116  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.116  INFO actix_server::accept: accept thread stopped
+2024-10-06 17:23:32.116  INFO actix_server::worker: shutting down idle worker
+2024-10-06 17:23:32.116  INFO actix_server::worker: shutting down idle worker
